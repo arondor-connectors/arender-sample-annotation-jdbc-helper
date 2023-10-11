@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.arondor.arender</groupId>
+    <artifactId>arondor-arender-local-jdbc-annotations</artifactId>
+    <name>JDBC Annotations</name>
+    <version>4.8.14-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <arender.api.version>4.7.1</arender.api.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.arondor.arender</groupId>
+            <artifactId>arondor-arender-annotation-api</artifactId>
+            <version>${arender.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.arondor.arender</groupId>
+            <artifactId>arondor-arender-rendition-api</artifactId>
+            <version>${arender.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.arondor.arender</groupId>
+            <artifactId>arondor-arender-client-api</artifactId>
+            <version>${arender.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.arondor.arender</groupId>
+            <artifactId>arondor-arender-xfdf-annotation</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.arondor.arender</groupId>
+            <artifactId>arondor-arender-jdbc-annotation</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.2.22.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.21.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.8</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
