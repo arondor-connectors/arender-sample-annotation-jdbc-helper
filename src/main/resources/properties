@@ -1,0 +1,5 @@
+documentId=testID
+driverClassName=org.sqlite.JDBC
+url=jdbc:sqlite:C:/myPath/ARenderAnnotations.db
+login=
+password=
